@@ -23,13 +23,13 @@ import { ModalModule } from 'ngx-bootstrap/modal';
     }),
     NgxGalleryModule,
     NgxSpinnerModule.forRoot({
-      type: 'line-scale-party'
+      type: 'line-scale-party' 
     }),
-    FileUploadModule,
+    // FileUploadModule,
     BsDatepickerModule.forRoot(),
     PaginationModule.forRoot(),
     ButtonsModule.forRoot(),
-    TimeagoModule.forRoot(),
+    // TimeagoModule.forRoot(),
     ModalModule.forRoot()
   ],
   exports: [
@@ -38,11 +38,11 @@ import { ModalModule } from 'ngx-bootstrap/modal';
     TabsModule,
     NgxGalleryModule,
     NgxSpinnerModule,
-    FileUploadModule,
+    // FileUploadModule,
     BsDatepickerModule,
     PaginationModule,
     ButtonsModule,
-    TimeagoModule,
+    // TimeagoModule,
     ModalModule
   ]
 })
